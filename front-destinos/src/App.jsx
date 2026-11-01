@@ -79,8 +79,8 @@ function App() {
     <div className="contenedor">
 
       <header>
-        <h1>🇨🇴 Explora Colombia</h1>
-        <p>Descubre los mejores destinos turísticos</p>
+        <h1>Explora Colombia</h1>
+        <p>Descubre Colombia y sus destinos turisticos</p>
       </header>
 
       <section className="formulario">

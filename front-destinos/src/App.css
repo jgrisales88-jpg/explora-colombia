@@ -6,22 +6,36 @@ margin: 0;
 font-family: Arial, sans-serif;
 background: #f2f5f3;
 color: #26352d;
+background-image: url('https://www.kienyke.com/sites/default/files/styles/schema_article_16_9/public/2022-08/Colombia.jpg?itok=GvssHEEb');
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size: cover;
 }
 .contenedor {
-max-width: 850px;
+max-width: 1000px;
 margin: 40px auto;
 padding: 20px;
 }
 header {
 text-align: center;
-background: #176b45;
-color: white;
+background: #fde400;
+color: black;
 padding: 35px 20px;
 border-radius: 12px;
 }
 header h1 {
 margin: 0;
-font-size: 32px;
+font-size: 4rem;
+font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+h2 {
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
 }
 .formulario,
 .lista {
@@ -37,18 +51,22 @@ gap: 12px;
 }
 input {
 padding: 13px;
-border: 1px solid #ccc;
+border: 1px solid #ff8800;
 border-radius: 7px;
 font-size: 15px;
 }
 button {
 padding: 13px;
-background: #176b45;
+background: #2631c7;
 color: white;
 border: none;
 border-radius: 7px;
 cursor: pointer;
-font-size: 15px;
+font-size: 20px;
+font-family: "Zen Kaku Gothic New", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
 }
 button:hover {
 opacity: 0.85;
@@ -68,6 +86,7 @@ margin-top: 0;
 color: #777;
 }
 .eliminar {
-background: #c0392b;
+background: #fc1c1c;
 width: auto;
+font-size: 15px;
 }
